@@ -1,9 +1,9 @@
 Hal yang Dipelajari
-1. Sintaks ES6,
-2. Web Components,
-3. Node Package Manager,
-4. Webpack, dan
-5. Asynchronous JavaScript Request menggunakan XHR dan Fetch
+1. ECMAScript 2015 (ES6) : Belajar menerapkan sintaks terbaru pada JavaScript seperti block scope variable, template literals, destructuring object and array, spread operator dan rest parameters, arrow function, classes, promise hingga JavaScript module.
+2. Web Component : Belajar membangun component UI website yang bersifat reusable dan encapsulated dengan custom element dan shadow DOM.
+3. Node Package Manager : Belajar menambahkan, menghapus, dan menggunakan package JavaScript yang ada di NPM. Serta membedakan fungsi dari development dependency dan production dependency.
+4. Webpack : Belajar menggunakan webpack sebagai environment dan build tools dalam membangun website yang optimized.
+5. JavaScript Asynchronous Request  :  Belajar transaksi data melalui protocol HTTP/HTTPS menggunakan fetch API baik pada method GET, POST, PUT, dan DELETE.
 
 # web-cuaca
 1. Website dibangun menggunakan standar ES6 sintaks dalam menuliskan kode JavaScript pada proyek yang dibuat
