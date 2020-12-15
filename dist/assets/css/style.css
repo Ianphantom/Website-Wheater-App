@@ -1,0 +1,209 @@
+
+.container {
+    width:1000px;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0px 10px 12px 5px;
+}
+body{
+    background-image: url(/assets/image/cuaca.jpg);
+    margin:0;
+    margin-top: 25px;
+}
+header {
+    display: inline;
+}
+.judul{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    background-image: url(/assets/image/Kerala-monsoon1200.jpg);
+    color:white;
+}
+nav{
+    position: sticky;
+}
+.daftar{
+    background: #4a5875;
+    padding: 6px 0 6px 40px;
+    position: sticky;
+    top: 0;
+}
+.daftar a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: snow;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    padding: 6px 10px 6px 5px;
+    border-right: solid #1c3b44;
+}
+.daftar a:hover{
+    font-weight: bold;
+}
+main{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+.content{
+    margin: 0 0 0 10px;
+    padding: 0px 10px 10px 10px;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px; 
+    line-height: 18px;
+    text-emphasis: justify;
+    flex-basis: 70%;
+    background-image: url(/assets/image/card.jpg);
+    width: 100%;
+}
+.content p{
+    text-align: justify;
+}
+.content h2{
+    color:#0025a1;
+}
+.content h3{
+    color:#00821e;
+}
+.judul h1{
+    letter-spacing: 20px;
+    font-weight: 1000;
+}
+.judul p{
+    word-spacing: 5px;
+}
+aside{
+    padding: 30px 0 0 40px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 0px;
+    margin-right: 2px;
+    background-image: url(/assets/image/aside.jpg);
+    background-position: bottom;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    width: 60%;
+    height: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/image/26819.jpg);
+}
+aside h2{
+    color: #2e8a00;
+    text-align: center;
+}
+p{
+    text-indent: 20px;
+}
+.berita{
+    max-height: 200px;
+    overflow: auto;
+    padding: 10px;
+    background:#036ED9;
+    text-align: justify;
+    color:white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.berita h3{
+    text-align: center;
+}
+.likeanddislike{
+    border-top: 20px;
+}
+.contact img{
+    width: 50px;
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #4a5875;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: auto;
+        padding: 10px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .container{
+        width: auto;
+    }
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    
+}
+judul-web{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    /* background-color: springgreen; */
+    /* background-image: url(/assets/image/Kerala-monsoon1200.jpg); */
+    color:black;
+    
+}
+judul-web h1{
+    letter-spacing: 20px;
+    font-weight: 1000;
+}
+judul-web p{
+    word-spacing: 5px;
+}
+.cuaca{
+    text-align: center;
+}
+.cuaca p{
+    text-align: center;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.title{
+    letter-spacing: 10px;
+    font-size: 36px;
+}
+.wcontainer{
+    padding: 1px;
+}
+.suhu{
+    margin: 10px 0px;
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    font-weight: 900;
+}
+.lokasi{
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.description{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.title{
+    text-align: center;
+}
