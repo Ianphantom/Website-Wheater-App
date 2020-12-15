@@ -1,4 +1,4 @@
-Hal yang Dipelajari
+# Hal yang Dipelajari
 1. ECMAScript 2015 (ES6) : Belajar menerapkan sintaks terbaru pada JavaScript seperti block scope variable, template literals, destructuring object and array, spread operator dan rest parameters, arrow function, classes, promise hingga JavaScript module.
 2. Web Component : Belajar membangun component UI website yang bersifat reusable dan encapsulated dengan custom element dan shadow DOM.
 3. Node Package Manager : Belajar menambahkan, menghapus, dan menggunakan package JavaScript yang ada di NPM. Serta membedakan fungsi dari development dependency dan production dependency.
